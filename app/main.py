@@ -3,8 +3,10 @@ import pandas as pd
 import sys
 import os
 import matplotlib.pyplot as plt
-from src.genai_explanation import generate_genai_style_explanation
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from src.genai_explanation import generate_genai_style_explanation
+
 
 
 from src.underwriting_engine import (
