@@ -43,5 +43,12 @@ Underwriting Decision Logic
 Premium Recommendation
         ↓
 GenAI-Style Explanation
+
+## To run this code
+cd C:\Users\ganna\Downloads\Projects\earnix-inspired-ai-underwriting-pricing-engine
+.\venv\Scripts\Activate.ps1
+python src/generate_data.py
+python src/train_model.py
+streamlit run app/main.py
         ↓
 Streamlit Dashboard
